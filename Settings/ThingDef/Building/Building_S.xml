@@ -1,10 +1,9 @@
-﻿<ThingDefs>
-<List>
+﻿<ThingDefs><List>
 
 	<ThingDef Type="Building" Name="S_XICHUANG" Parent="FurnitureBase">
 	<TexPath>Spr\Building\xichuang.png</TexPath>
 	<TexScale>0.42</TexScale>
-	<ThingName>囍囍床</ThingName>	
+	<ThingName>囍床</ThingName>	
 	<Desc>一张适合新婚夫妇使用的大床。</Desc>
 	<Tags>
 		<Tag Name="Sleep" Level="2"/>
@@ -63,7 +62,7 @@
 	<ThingDef Type="Building" Name="S_XICHUANG2" Parent="FurnitureBase">
 	<TexPath>Spr\Building\xichuang2.png</TexPath>
 	<TexScale>1</TexScale>
-	<ThingName>高级囍囍床</ThingName>	
+	<ThingName>高级囍床</ThingName>	
 	<Desc>一张适合新婚夫妇使用的大床。</Desc>
 	<Tags>
 		<Tag Name="Sleep" Level="3"/>
@@ -90,7 +89,6 @@
 		</WorkOffset>
 	</Collider>
 	
-	<!-- 修复：Building标签应该包含在ThingDef内 -->
 	<Building>
 		<RoomKind>BedRoom</RoomKind>
 		<IsBed>1</IsBed>
@@ -124,7 +122,7 @@
 	<ThingDef Type="Building" Name="S_XICHUANG3" Parent="FurnitureBase">
 	<TexPath>Spr\Building\xichuang3.png</TexPath>
 	<TexScale>0.5</TexScale>
-	<ThingName>多人囍囍床</ThingName>	
+	<ThingName>多人囍床</ThingName>	
 	<Desc>一张适合拥有多个配偶使用的大床。</Desc>
 	<Tags>
 		<Tag Name="Sleep" Level="4"/>
@@ -156,7 +154,6 @@
 		</WorkOffset>
 	</Collider>
 	
-	<!-- 修复：Building标签应该包含在ThingDef内 -->
 	<Building>
 		<RoomKind>BedRoom</RoomKind>
 		<IsBed>1</IsBed>
@@ -229,10 +226,9 @@
 			<CostStuffCount>200</CostStuffCount>
 		</BeMade>		
 	</Building>
-	<!-- 修复：StoryBnts 改为 StoryBtns -->
-	<StoryBtns>
+	<StoryBnts>
 		<li Name="培养" Desc="培养婴儿的能力。" Story="Story_YingEr" Cost="30" Icon="res/Sprs/ui/icon_hand" Appoint="3"/>
-	</StoryBtns>
+	</StoryBnts>
 	</ThingDef>	
 
 	<ThingDef Type="Building" Name="S_ZHUAZHOU" Parent="OrnamentBase">
@@ -266,10 +262,9 @@
 			<CostStuffCount>200</CostStuffCount>
 		</BeMade>		
 	</Building>
-	<!-- 修复：StoryBnts 改为 StoryBtns -->
-	<StoryBtns>
+	<StoryBnts>
 		<li Name="抓周" Desc="抓周。" Story="Story_ZhuaZhou" Cost="30" Icon="res/Sprs/ui/icon_hand" Appoint="3"/>
-	</StoryBtns>
+	</StoryBnts>
 	</ThingDef>
 
 	<ThingDef Type="Building" Name="S_HAITONG" Parent="OrnamentBase">
@@ -303,10 +298,9 @@
 			<CostStuffCount>200</CostStuffCount>
 		</BeMade>		
 	</Building>
-	<!-- 修复：StoryBnts 改为 StoryBtns -->
-	<StoryBtns>
+	<StoryBnts>
 		<li Name="培养" Desc="培养孩童的能力。" Story="Story_HaiTong1" Cost="30" Icon="res/Sprs/ui/icon_hand" Appoint="3"/>
-	</StoryBtns>
+	</StoryBnts>
 	</ThingDef>
 
 	<ThingDef Type="Building" Name="S_SHAONIAN" Parent="OrnamentBase">
@@ -340,10 +334,9 @@
 			<CostStuffCount>200</CostStuffCount>
 		</BeMade>		
 	</Building>
-	<!-- 修复：StoryBnts 改为 StoryBtns -->
-	<StoryBtns>
+	<StoryBnts>
 		<li Name="培养" Desc="培养少年的能力。" Story="Story_ShaoNian" Cost="30" Icon="res/Sprs/ui/icon_hand" Appoint="3"/>
-	</StoryBtns>
+	</StoryBnts>
 	</ThingDef>
 
 
@@ -399,10 +392,9 @@
 			</Produce>
 		</Produces>		
 	</Building>
-	<!-- 修复：StoryBnts 改为 StoryBtns -->
-	<StoryBtns>
+	<StoryBnts>
 		<li Name="天命" Desc="使用天命轮的能力。" Story="Story_TML" Cost="8" Icon="res/Sprs/ui/icon_hand" Appoint="3"/>
-	</StoryBtns>
+	</StoryBnts>
 	</ThingDef>
 
 
@@ -436,13 +428,11 @@
 			<CostStuffCount>300</CostStuffCount>
 		</BeMade>
 	</Building>
-	<!-- 修复：StoryBnts 改为 StoryBtns -->
-	<StoryBtns>
+	<StoryBnts>
 		<li Name="领养" Desc="可以领养其他门派遗弃的孤儿。" Story="Story_GEY" Cost="15" Icon="res/Sprs/ui/icon_hand" Appoint="3"/>
-	</StoryBtns>
+	</StoryBnts>
 	</ThingDef>
 	
 
 
-</List>
-</ThingDefs>
+</List></ThingDefs>

@@ -1,5 +1,4 @@
-﻿<ModifierDefs>
-<List>
+﻿<ModifierDefs><List>
 	<Modifier Name="YingErShi" Type="Normal">
 		<DisplayName>随地大便</DisplayName>
 		<LuaClassName>YINGERSHI</LuaClassName>
@@ -36,6 +35,7 @@
 		<Display>1</Display>
 		<Sync>1</Sync>
 	</Modifier> 
+
 
 	<Modifier Name="LunHui_God2" Type="Normal">
 		<DisplayName>真仙转世</DisplayName>
@@ -201,5 +201,6 @@
 			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.5"/>
 		</Properties>
 	</Modifier> 
-</List>
-</ModifierDefs>
+
+
+</List></ModifierDefs>
