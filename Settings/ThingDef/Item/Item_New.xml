@@ -19,7 +19,8 @@
 			<BeMade>
 				<WorkToMake>1</WorkToMake>
 				<CostItems>
-					<Item name = "Item_Ginkgo" count = "1"/>
+					<Item name = "Item_Ginkgo" count = "1000"/>
+	        <Item name = "Item_SoulCrystalYou" count = "10"/>
 				</CostItems>
 			</BeMade> 
 		</Item>
@@ -44,7 +45,8 @@
       <BeMade>
 				<WorkToMake>1</WorkToMake>
 				<CostItems>
-					<Item name = "Item_Ginkgo" count = "10"/>
+					<Item name = "Item_Ginkgo" count = "1000"/>
+	        <Item name = "Item_SoulCrystalLing" count = "10"/>
 				</CostItems>
 			</BeMade>     
 			<FabaoSuffix>匣</FabaoSuffix>			
