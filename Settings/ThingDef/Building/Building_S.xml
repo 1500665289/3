@@ -1,6 +1,6 @@
 ﻿<ThingDefs><List>
 
-	<ThingDef Type="Building" Name="S_XICHUANG" Parent="FurnitureBase">
+	<ThingDef Type="Building" Name="XICHUANG" Parent="FurnitureBase">
 	<TexPath>Spr\Building\xichuang.png</TexPath>
 	<TexScale>0.42</TexScale>
 	<ThingName>囍床</ThingName>	
@@ -59,7 +59,7 @@
 	</ThingDef>	
 	
 
-	<ThingDef Type="Building" Name="S_XICHUANG2" Parent="FurnitureBase">
+	<ThingDef Type="Building" Name="XICHUANG2" Parent="FurnitureBase">
 	<TexPath>Spr\Building\xichuang2.png</TexPath>
 	<TexScale>1</TexScale>
 	<ThingName>高级囍床</ThingName>	
@@ -119,7 +119,7 @@
 
 
 
-	<ThingDef Type="Building" Name="S_XICHUANG3" Parent="FurnitureBase">
+	<ThingDef Type="Building" Name="XICHUANG3" Parent="FurnitureBase">
 	<TexPath>Spr\Building\xichuang3.png</TexPath>
 	<TexScale>0.5</TexScale>
 	<ThingName>多人囍床</ThingName>	
@@ -195,7 +195,7 @@
 
 
 
-	<ThingDef Type="Building" Name="S_YINGER" Parent="OrnamentBase">
+	<ThingDef Type="Building" Name="YINGER" Parent="OrnamentBase">
 	<TexPath>Spr\Building\yinger.png</TexPath>
 	<TexScale>0.4</TexScale>
 	<ThingName>婴儿培养桌</ThingName>	
@@ -231,7 +231,7 @@
 	</StoryBnts>
 	</ThingDef>	
 
-	<ThingDef Type="Building" Name="S_ZHUAZHOU" Parent="OrnamentBase">
+	<ThingDef Type="Building" Name="ZHUAZHOU" Parent="OrnamentBase">
 	<TexPath>Spr\Building\zhuazhou.png</TexPath>
 	<TexScale>0.38</TexScale>
 	<ThingName>婴儿抓周桌</ThingName>	
@@ -267,7 +267,7 @@
 	</StoryBnts>
 	</ThingDef>
 
-	<ThingDef Type="Building" Name="S_HAITONG" Parent="OrnamentBase">
+	<ThingDef Type="Building" Name="HAITONG" Parent="OrnamentBase">
 	<TexPath>Spr\Building\haitong.png</TexPath>
 	<TexScale>0.38</TexScale>
 	<ThingName>孩童培养桌</ThingName>	
@@ -303,7 +303,7 @@
 	</StoryBnts>
 	</ThingDef>
 
-	<ThingDef Type="Building" Name="S_SHAONIAN" Parent="OrnamentBase">
+	<ThingDef Type="Building" Name="SHAONIAN" Parent="OrnamentBase">
 	<TexPath>Spr\Building\shaonian.png</TexPath>
 	<TexScale>0.4</TexScale>
 	<ThingName>少年培养桌</ThingName>	
@@ -340,7 +340,7 @@
 	</ThingDef>
 
 
-	<ThingDef Type="Building" Name="S_TML" Parent="ProductionBase">
+	<ThingDef Type="Building" Name="TML" Parent="ProductionBase">
 	<TexPath>Spr\Building\TML.png</TexPath>
 	<Desc>天命轮算尽世间天命。</Desc>
 	<TexScale>1</TexScale>
@@ -398,7 +398,7 @@
 	</ThingDef>
 
 
-	<ThingDef Type="Building" Name="S_GEY" Parent="OrnamentBase">
+	<ThingDef Type="Building" Name="GEY" Parent="OrnamentBase">
 	<TexPath>Spr\Building\GEY.png</TexPath>
 	<TexScale>1</TexScale>
 	<ThingName>孤儿院</ThingName>	

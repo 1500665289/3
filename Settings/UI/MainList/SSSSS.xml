@@ -1,15 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
 <MainList>
   <List>
     <!-- 良缘建筑列表 -->
-    <Data Kind="Builds" Unlock="1" Type="良缘" CMDType="Build" Name="S_XICHUANG" Icon="path/to/icon1" Desc="囍床"/>
-    <Data Kind="Builds" Unlock="1" Type="良缘" CMDType="Build" Name="S_ZHUAZHOU" Icon="path/to/icon2" Desc="婴儿抓周桌"/>
-    <Data Kind="Builds" Unlock="2" Type="良缘" CMDType="Build" Name="S_YINGER" Icon="path/to/icon3" Desc="婴儿培养桌"/>
-    <Data Kind="Builds" Unlock="2" Type="良缘" CMDType="Build" Name="S_GEY" Icon="path/to/icon4" Desc="孤儿院"/>
-    <Data Kind="Builds" Unlock="3" Type="良缘" CMDType="Build" Name="S_HAITONG" Icon="path/to/icon5" Desc="孩童培养桌"/>
-    <Data Kind="Builds" Unlock="4" Type="良缘" CMDType="Build" Name="S_XICHUANG2" Icon="path/to/icon6" Desc="高级囍床"/>
-    <Data Kind="Builds" Unlock="4" Type="良缘" CMDType="Build" Name="S_SHAONIAN" Icon="path/to/icon7" Desc="少年培养桌"/>
-    <Data Kind="Builds" Unlock="4" Type="良缘" CMDType="Build" Name="S_TML" Icon="path/to/icon8" Desc="天命轮"/>
-    <Data Kind="Builds" Unlock="4" Type="良缘" CMDType="Build" Name="S_XICHUANG3" Icon="path/to/icon9" Desc="多人囍床"/>
+    <Data Kind="Builds" Unlock="1" Type="良缘" CMDType="Build" Name="XICHUANG" Icon="path/to/icon1" Desc="囍床"/>
+    <Data Kind="Builds" Unlock="1" Type="良缘" CMDType="Build" Name="ZHUAZHOU" Icon="path/to/icon2" Desc="婴儿抓周桌"/>
+    <Data Kind="Builds" Unlock="2" Type="良缘" CMDType="Build" Name="YINGER" Icon="path/to/icon3" Desc="婴儿培养桌"/>
+    <Data Kind="Builds" Unlock="2" Type="良缘" CMDType="Build" Name="GEY" Icon="path/to/icon4" Desc="孤儿院"/>
+    <Data Kind="Builds" Unlock="3" Type="良缘" CMDType="Build" Name="HAITONG" Icon="path/to/icon5" Desc="孩童培养桌"/>
+    <Data Kind="Builds" Unlock="4" Type="良缘" CMDType="Build" Name="XICHUANG2" Icon="path/to/icon6" Desc="高级囍床"/>
+    <Data Kind="Builds" Unlock="4" Type="良缘" CMDType="Build" Name="SHAONIAN" Icon="path/to/icon7" Desc="少年培养桌"/>
+    <Data Kind="Builds" Unlock="4" Type="良缘" CMDType="Build" Name="TML" Icon="path/to/icon8" Desc="天命轮"/>
+    <Data Kind="Builds" Unlock="4" Type="良缘" CMDType="Build" Name="XICHUANG3" Icon="path/to/icon9" Desc="多人囍床"/>
   </List>
 </MainList>
