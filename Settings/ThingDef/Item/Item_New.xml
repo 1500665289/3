@@ -17,10 +17,14 @@
 				<TreeExp>10000</TreeExp>
 			</Elixir>
 			<BeMade>
-				<WorkToMake>1</WorkToMake>
+				<WorkToMake>600</WorkToMake>
 				<CostItems>
 					<Item name = "Item_Ginkgo" count = "1000"/>
 	        <Item name = "Item_SoulCrystalYou" count = "10"/>
+					<Item name = "Item_SoulCrystalLing" count = "5"/>
+					<Item name = "Item_SoulCrystalNing" count = "5"/>
+					<Item name = "Item_EarthEssence" count = "3"/>
+					<Item name = "Item_ThunderAir" count = "1"/>
 				</CostItems>
 			</BeMade> 
 		</Item>
@@ -43,10 +47,14 @@
 		</Flammability>
 		<Item Lable="Other">
       <BeMade>
-				<WorkToMake>1</WorkToMake>
+				<WorkToMake>300</WorkToMake>
 				<CostItems>
 					<Item name = "Item_Ginkgo" count = "1000"/>
 	        <Item name = "Item_SoulCrystalLing" count = "10"/>
+					<Item name = "Item_StoneBox2" count = "1"/>
+					<Item name = "Item_Marble" count = "50"/>
+					<Item name = "Item_Jade" count = "5"/>
+					<Item name = "Item_SoulPearl" count = "1"/>
 				</CostItems>
 			</BeMade>     
 			<FabaoSuffix>匣</FabaoSuffix>			
@@ -69,9 +77,14 @@
 		</Flammability>
 		<Item Lable="Other">
       <BeMade>
-				<WorkToMake>1</WorkToMake>
+				<WorkToMake>500</WorkToMake>
 				<CostItems>
-					<Item name = "Item_Ginkgo" count = "1"/>
+					<Item name = "Item_Ginkgo" count = "500"/>
+					<Item name = "Item_SoulCrystalYou" count = "5"/>
+					<Item name = "Item_SoulCrystalLing" count = "5"/>
+					<Item name = "Item_SoulCrystalNing" count = "5"/>
+					<Item name = "Item_StarEssence" count = "2"/>
+					<Item name = "Item_ZaoHuaYuLu" count = "1"/>
 				</CostItems>
 			</BeMade>     
 			<FabaoSuffix>匣</FabaoSuffix>			
@@ -97,9 +110,14 @@
 		</Flammability>
 		<Item Lable="Drug">
       <BeMade>
-				<WorkToMake>1</WorkToMake>
+				<WorkToMake>800</WorkToMake>
 				<CostItems>
-					<Item name = "Item_Ginkgo" count = "1"/>
+					<Item name = "Item_Ginkgo" count = "100"/>
+					<Item name = "Item_ZaoHuaYuZi" count = "1"/>
+					<Item name = "Item_EarthEssence" count = "5"/>
+					<Item name = "Item_LifeStream" count = "3"/>
+					<Item name = "Item_YuanHunLu" count = "2"/>
+					<Item name = "Item_DragonShit" count = "1"/>
 				</CostItems>
 			</BeMade>
 			<NotFengshuiItem>0</NotFengshuiItem>
@@ -153,9 +171,13 @@
 				<Modifier>Dan_SkillLvMax</Modifier>
 			</Elixir>
 			<BeMade>
-				<WorkToMake>20</WorkToMake>
+				<WorkToMake>400</WorkToMake>
 				<CostItems>
-					<Item name = "Item_Ginkgo" count = "1"/>
+					<Item name = "Item_Ginkgo" count = "200"/>
+					<Item name = "Item_YuanHunLu" count = "3"/>
+					<Item name = "Item_YanDaoGuo" count = "2"/>
+					<Item name = "Item_EarthEssence_1" count = "3"/>
+					<Item name = "Item_SoulPearl" count = "1"/>
 				</CostItems>
 			</BeMade> 
 		</Item>
@@ -192,9 +214,13 @@
 				<ZhuJi>25000</ZhuJi>
 			</Elixir>
 			<BeMade>
-				<WorkToMake>20</WorkToMake>
+				<WorkToMake>100</WorkToMake>
 				<CostItems>
-					<Item name = "Item_Ginkgo" count = "1"/>
+					<Item name = "Item_Ginkgo" count = "50"/>
+					<Item name = "Item_ChickenEgg" count = "10"/>
+					<Item name = "Item_LingMuXueJie" count = "5"/>
+					<Item name = "Item_MonsterBlood" count = "20"/>
+					<Item name = "Item_Cinnabar" count = "5"/>
 				</CostItems>
 			</BeMade> 
 		</Item>
@@ -225,8 +251,12 @@
 			<BeMade>
 				<WorkToMake>600</WorkToMake>
 				<CostItems>
-					<Item name = "Item_LingCrystal" count = "1"/>
-					<Item name = "Item_EarthEssence" count = "1"/>
+					<Item name = "Item_LingCrystal" count = "5"/>
+					<Item name = "Item_EarthEssence" count = "3"/>
+					<Item name = "Item_Ginkgo" count = "100"/>
+					<Item name = "Item_HuoEssence" count = "2"/>
+					<Item name = "Item_MuEssence" count = "2"/>
+					<Item name = "Item_SoulCrystalLing" count = "3"/>
 				</CostItems>
 			</BeMade> 
 		</Item>
@@ -254,9 +284,14 @@
 				<Modifier>Dan_KaoRou</Modifier>
 			</Elixir>
 			<BeMade>
-				<WorkToMake>20</WorkToMake>
+				<WorkToMake>200</WorkToMake>
 				<CostItems>
-					<Item name = "Item_Ginkgo" count = "1"/>
+					<Item name = "Item_Ginkgo" count = "30"/>
+					<Item name = "Item_WolfMeat" count = "5"/>
+					<Item name = "Item_BoarMeat" count = "5"/>
+					<Item name = "Item_BearMeat" count = "3"/>
+					<Item name = "Item_TigerMeat" count = "2"/>
+					<Item name = "Item_Yao_WolfAtk" count = "1"/>
 				</CostItems>
 			</BeMade> 
 		</Item>
@@ -283,9 +318,13 @@
 				<Modifier>Dan_MiMi</Modifier>
 			</Elixir>
 			<BeMade>
-				<WorkToMake>20</WorkToMake>
+				<WorkToMake>250</WorkToMake>
 				<CostItems>
-					<Item name = "Item_Ginkgo" count = "1"/>
+					<Item name = "Item_Ginkgo" count = "50"/>
+					<Item name = "Item_SoulCrystalYou" count = "3"/>
+					<Item name = "Item_SoulCrystalLing" count = "3"/>
+					<Item name = "Item_Jade" count = "10"/>
+					<Item name = "Item_MonsterBlood" count = "20"/>
 				</CostItems>
 			</BeMade> 
 		</Item>
@@ -313,9 +352,13 @@
 				<Modifier>Dan_SuperMiMi</Modifier>
 			</Elixir>
 			<BeMade>
-				<WorkToMake>20</WorkToMake>
+				<WorkToMake>300</WorkToMake>
 				<CostItems>
-					<Item name = "Item_Ginkgo" count = "1"/>
+					<Item name = "Item_Ginkgo" count = "100"/>
+					-<Item name = "Item_SoulCrystalNing" count = "5"/>
+					<Item name = "Item_StarEssence" count = "2"/>
+					<Item name = "Item_XianBone" count = "1"/>
+					<Item name = "Item_ThunderAir" count = "1"/>
 				</CostItems>
 			</BeMade> 
 		</Item>
@@ -343,9 +386,13 @@
 				<Modifier>Dan_YiLing</Modifier>
 			</Elixir>
 			<BeMade>
-				<WorkToMake>20</WorkToMake>
+				<WorkToMake>350</WorkToMake>
 				<CostItems>
-					<Item name = "Item_Ginkgo" count = "1"/>
+					<Item name = "Item_Ginkgo" count = "150"/>
+					<Item name = "Item_LingCrystal" count = "10"/>
+					<Item name = "Item_EarthEssence" count = "5"/>
+					<Item name = "Item_LifeStream" count = "3"/>
+					<Item name = "Item_ZaoHuaYuLu" count = "1"/>
 				</CostItems>
 			</BeMade> 
 		</Item>
@@ -372,9 +419,13 @@
 				<Modifier>Dan_BrokenNeck</Modifier>
 			</Elixir>
 			<BeMade>
-				<WorkToMake>20</WorkToMake>
+				<WorkToMake>150</WorkToMake>
 				<CostItems>
-					<Item name = "Item_Ginkgo" count = "1"/>
+					<Item name = "Item_Ginkgo" count = "40"/>
+					<Item name = "Item_Yao_SnakeHanLin" count = "1"/>
+					<Item name = "Item_SnakeMeat" count = "5"/>
+					<Item name = "Item_LingMuXueJie" count = "3"/>
+					<Item name = "Item_ShuiEssence" count = "2"/>
 				</CostItems>
 			</BeMade> 
 		</Item>
@@ -401,9 +452,14 @@
 				<Modifier>Dan_ChangeSex</Modifier>
 			</Elixir>
 			<BeMade>
-				<WorkToMake>20</WorkToMake>
+				<WorkToMake>400</WorkToMake>
 				<CostItems>
-					<Item name = "Item_Ginkgo" count = "1"/>
+					<Item name = "Item_Ginkgo" count = "200"/>
+					<Item name = "Item_ZaoHuaYuLu" count = "2"/>
+					<Item name = "Item_LifeStream" count = "3"/>
+					<Item name = "Item_EarthEssence" count = "5"/>
+					<Item name = "Item_SoulPearl" count = "2"/>
+					<Item name = "Item_YuanHunLu" count = "3"/>
 				</CostItems>
 			</BeMade> 
 		</Item>
@@ -430,9 +486,14 @@
 				<Modifier>Dan_ChiHuo</Modifier>
 			</Elixir>
 			<BeMade>
-				<WorkToMake>20</WorkToMake>
+				<WorkToMake>120</WorkToMake>
 				<CostItems>
-					<Item name = "Item_Ginkgo" count = "1"/>
+					<Item name = "Item_Ginkgo" count = "20"/>
+					<Item name = "Item_Mushroom" count = "10"/>
+					<Item name = "Item_Lotusroot" count = "10"/>
+					<Item name = "Item_Beef" count = "5"/>
+					<Item name = "Item_ChickenMeat" count = "5"/>
+					<Item name = "Item_RabbitMeat" count = "5"/>
 				</CostItems>
 			</BeMade> 
 		</Item>
@@ -458,9 +519,13 @@
 				<Modifier>Dan_Huoji</Modifier>
 			</Elixir>
 			<BeMade>
-				<WorkToMake>20</WorkToMake>
+				<WorkToMake>180</WorkToMake>
 				<CostItems>
-					<Item name = "Item_Ginkgo" count = "1"/>
+					<Item name = "Item_Ginkgo" count = "60"/>
+					<Item name = "Item_ChickenMeat" count = "10"/>
+					<Item name = "Item_Yao_RabbitLuck" count = "1"/>
+					<Item name = "Item_HuoEssence" count = "3"/>
+					<Item name = "Item_Cinnabar" count = "10"/>
 				</CostItems>
 			</BeMade> 
 		</Item>
@@ -486,9 +551,13 @@
 				<Modifier>Dan_YuMu</Modifier>
 			</Elixir>
 			<BeMade>
-				<WorkToMake>20</WorkToMake>
+				<WorkToMake>250</WorkToMake>
 				<CostItems>
-					<Item name = "Item_Ginkgo" count = "1"/>
+					<Item name = "Item_Ginkgo" count = "80"/>
+					<Item name = "Item_DragonScale" count = "2"/>
+					<Item name = "Item_DragonShit" count = "3"/>
+					<Item name = "Item_Yao_TurtleKe" count = "1"/>
+					<Item name = "Item_SoulCrystalNing" count = "3"/>
 				</CostItems>
 			</BeMade> 
 		</Item>
@@ -515,9 +584,13 @@
 				<Modifier>Dan_XiangRui</Modifier>
 			</Elixir>
 			<BeMade>
-				<WorkToMake>20</WorkToMake>
+				<WorkToMake>200</WorkToMake>
 				<CostItems>
-					<Item name = "Item_Ginkgo" count = "1"/>
+					<Item name = "Item_Ginkgo" count = "70"/>
+					<Item name = "Item_Yao_RabbitLuck" count = "1"/>
+					<Item name = "Item_Jade" count = "5"/>
+					<Item name = "Item_TuEssence" count = "2"/>
+					<Item name = "Item_LingWood" count = "20"/>
 				</CostItems>
 			</BeMade>
 		</Item>
@@ -543,9 +616,13 @@
 				<Modifier>Dan_JiE</Modifier>
 			</Elixir>
 			<BeMade>
-				<WorkToMake>20</WorkToMake>
+				<WorkToMake>220</WorkToMake>
 				<CostItems>
-					<Item name = "Item_Ginkgo" count = "1"/>
+					<Item name = "Item_Ginkgo" count = "90"/>
+					<Item name = "Item_Yao_WolfAtk" count = "1"/>
+					<Item name = "Item_MonsterBlood" count = "30"/>
+					<Item name = "Item_EarthEssence1" count = "3"/>
+					<Item name = "Item_XieHunLu" count = "2"/>
 				</CostItems>
 			</BeMade>
 		</Item>
@@ -570,9 +647,14 @@
         <Modifier>Modifier_Item_YanDaoGuo</Modifier>
       </Elixir>
       <BeMade>
-				<WorkToMake>20</WorkToMake>
+				<WorkToMake>500</WorkToMake>
 				<CostItems>
-					<Item name = "Item_Ginkgo" count = "1"/>
+					<Item name = "Item_Ginkgo" count = "300"/>
+					<Item name = "Item_YanDaoGuo" count = "1"/>
+					<Item name = "Item_ThunderAir" count = "2"/>
+					<Item name = "Item_StarEssence" count = "3"/>
+					<Item name = "Item_ZaoHuaYuLu" count = "2"/>
+					<Item name = "Item_XianBone" count = "1"/>
 				</CostItems>
 			</BeMade> 
     </Item>
@@ -610,9 +692,14 @@
         <Modifier>Modifier_Item_QieDaoGuo</Modifier>
       </Elixir>
       <BeMade>
-				<WorkToMake>20</WorkToMake>
+				<WorkToMake>500</WorkToMake>
 				<CostItems>
-					<Item name = "Item_Ginkgo" count = "1"/>
+					<Item name = "Item_Ginkgo" count = "300"/>
+					<Item name = "Item_QieDaoGuo" count = "1"/>
+					<Item name = "Item_ThunderAir" count = "2"/>
+					<Item name = "Item_EarthEssence1" count = "5"/>
+					<Item name = "Item_XieHunLu" count = "3"/>
+					<Item name = "Item_MonsterBlood" count = "50"/>
 				</CostItems>
 			</BeMade> 
     </Item>
@@ -652,9 +739,13 @@
 				<Modifier>Dan_HaHa</Modifier>
 			</Elixir>
 			<BeMade>
-				<WorkToMake>20</WorkToMake>
+				<WorkToMake>100</WorkToMake>
 				<CostItems>
-					<Item name = "Item_FrogMeat" count = "1"/>
+					<Item name = "Item_FrogMeat" count = "10"/>
+					<Item name = "Item_Ginkgo" count = "20"/>
+					<Item name = "Item_Mushroom" count = "5"/>
+					<Item name = "Item_Yao_RabbitLuck" count = "1"/>
+					<Item name = "Item_ShuiEssence" count = "2"/>
 				</CostItems>
 			</BeMade>
 		</Item>
@@ -680,9 +771,13 @@
 				<Modifier>Dan_CaiXuKun</Modifier>
 			</Elixir>
 			<BeMade>
-				<WorkToMake>20</WorkToMake>
+				<WorkToMake>120</WorkToMake>
 				<CostItems>
-					<Item name = "Item_ChickenEgg" count = "10"/>
+					<Item name = "Item_ChickenEgg" count = "20"/>
+					<Item name = "Item_Ginkgo" count = "30"/>
+					<Item name = "Item_ChickenMeat" count = "5"/>
+					<Item name = "Item_JinEssence" count = "2"/>
+					<Item name = "Item_Yao_RabbitLuck" count = "1"/>
 				</CostItems>
 			</BeMade>
 		</Item>
@@ -708,9 +803,13 @@
 				<Modifier>Dan_BaiYanLang</Modifier>
 			</Elixir>
 			<BeMade>
-				<WorkToMake>20</WorkToMake>
+				<WorkToMake>150</WorkToMake>
 				<CostItems>
-					<Item name = "Item_WolfMeat" count = "1"/>
+					<Item name = "Item_WolfMeat" count = "10"/>
+					<Item name = "Item_Ginkgo" count = "40"/>
+					<Item name = "Item_Yao_WolfAtk" count = "2"/>
+					<Item name = "Item_SoulCrystalYou" count = "3"/>
+					<Item name = "Item_MonsterBlood" count = "20"/>
 				</CostItems>
 			</BeMade>
 		</Item>
@@ -738,9 +837,14 @@
 				<GodSoulCount>1</GodSoulCount>
 			</Elixir>
 			<BeMade>
-				<WorkToMake>20</WorkToMake>
+				<WorkToMake>700</WorkToMake>
 				<CostItems>
-					<Item name = "Item_Ginkgo" count = "5"/>
+					<Item name = "Item_Ginkgo" count = "500"/>
+					<Item name = "Item_XianBone" count = "3"/>
+					<Item name = "Item_SkyStone" count = "2"/>
+					-<Item name = "Item_DragonScale" count = "5"/>
+					<Item name = "Item_YuanHunLu" count = "5"/>
+					<Item name = "Item_ZaoHuaYuLu" count = "3"/>
 				</CostItems>
 			</BeMade> 
 		</Item>
@@ -765,9 +869,14 @@
         <Modifier>Dan_NvWa</Modifier>
 			</Elixir>
 			<BeMade>
-				<WorkToMake>20</WorkToMake>
+				<WorkToMake>650</WorkToMake>
 				<CostItems>
-					<Item name = "Item_Ginkgo" count = "5"/>
+					<Item name = "Item_Ginkgo" count = "400"/>
+					<Item name = "Item_XianBone" count = "2"/>
+					<Item name = "Item_SoulPearl" count = "3"/>
+					<Item name = "Item_EarthEssence" count = "5"/>
+					<Item name = "Item_LifeStream" count = "3"/>
+					<Item name = "Item_ThunderAir" count = "1"/>
 				</CostItems>
 			</BeMade> 
 		</Item>
@@ -811,18 +920,21 @@
 				<RecoveryDuration>0.04</RecoveryDuration>
 			</Elixir>
 			<BeMade>
-				<WorkToMake>20</WorkToMake>
+				<WorkToMake>300</WorkToMake>
 				<CostItems>
-					<Item name = "Item_Mushroom" count = "1"/>
-					<Item name = "Item_Lotusroot" count = "1"/>
-					<Item name = "Item_BoarMeat" count = "1"/>
-					<Item name = "Item_FrogMeat" count = "1"/>
-					<Item name = "Item_TurtleMeat" count = "1"/>
-					<Item name = "Item_BearMeat" count = "1"/>
-					<Item name = "Item_Beef" count = "1"/>
-					<Item name = "Item_RabbitMeat" count = "1"/>
-					<Item name = "Item_ChickenMeat" count = "1"/>
-					<Item name = "Item_SnakeMeat" count = "1"/>
+					<Item name = "Item_Mushroom" count = "10"/>
+					<Item name = "Item_Lotusroot" count = "10"/>
+					<Item name = "Item_BoarMeat" count = "5"/>
+					<Item name = "Item_FrogMeat" count = "5"/>
+					<Item name = "Item_TurtleMeat" count = "5"/>
+					<Item name = "Item_BearMeat" count = "3"/>
+					<Item name = "Item_Beef" count = "5"/>
+					<Item name = "Item_RabbitMeat" count = "5"/>
+					<Item name = "Item_ChickenMeat" count = "5"/>
+					<Item name = "Item_SnakeMeat" count = "5"/>
+					<Item name = "Item_Ginkgo" count = "100"/>
+					<Item name = "Item_Yao_BearPiMao" count = "1"/>
+					<Item name = "Item_Yao_TurtleKe" count = "1"/>
 				</CostItems>
 			</BeMade>
 		</Item>
@@ -849,9 +961,13 @@
 				<Modifier>Dan_ZhongLi</Modifier>
 			</Elixir>
 			<BeMade>
-				<WorkToMake>20</WorkToMake>
+				<WorkToMake>220</WorkToMake>
 				<CostItems>
-					<Item name = "Item_Ginkgo" count = "1"/>
+					<Item name = "Item_Ginkgo" count = "80"/>
+					<Item name = "Item_SkyStone" count = "2"/>
+					<Item name = "Item_DarksteelRock" count = "10"/>
+					<Item name = "Item_TuEssence" count = "3"/>
+					<Item name = "Item_Yao_TurtleKe" count = "1"/>
 				</CostItems>
 			</BeMade> 
 		</Item>
@@ -876,9 +992,13 @@
 				<Modifier>Dan_TiaoDaSheng</Modifier>
 			</Elixir>
 			<BeMade>
-				<WorkToMake>20</WorkToMake>
+				<WorkToMake>180</WorkToMake>
 				<CostItems>
-					<Item name = "Item_Ginkgo" count = "1"/>
+					<Item name = "Item_Ginkgo" count = "60"/>
+					<Item name = "Item_Jade" count = "5"/>
+					<Item name = "Item_LingCrystal" count = "5"/>
+					<Item name = "Item_SoulCrystalLing" count = "3"/>
+					<Item name = "Item_Yao_RabbitLuck" count = "1"/>
 				</CostItems>
 			</BeMade> 
 		</Item>
@@ -906,7 +1026,14 @@
 			<BeMade>
 				<WorkToMake>800</WorkToMake>
 				<CostItems>
-					<Item name = "Item_Ginkgo" count = "5"/>
+					<Item name = "Item_Ginkgo" count = "600"/>
+					<Item name = "Item_ZaoHuaYuLu" count = "5"/>
+					<Item name = "Item_YinYangDan" count = "3"/>
+					<Item name = "Item_ThunderAir" count = "3"/>
+					<Item name = "Item_XianBone" count = "2"/>
+					<Item name = "Item_SkyStone" count = "3"/>
+					<Item name = "Item_LifeStream" count = "5"/>
+					<Item name = "Item_EarthEssence" count = "5"/>
 				</CostItems>
 			</BeMade> 
 		</Item>
