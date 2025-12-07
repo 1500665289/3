@@ -1,0 +1,67 @@
+<ThingDefs><List>
+  
+  <ThingDef Type="Item" Name="Item_CangLongHanXing" Parent="ClothesBase">
+    <ThingName>苍龙寒星衫</ThingName>
+    <TexPath>res/Sprs/object/object_linpian01</TexPath>
+    <MaxStack>1</MaxStack>
+    <Rate>12</Rate>
+    <Beauty>100</Beauty>
+    <Element>Shui</Element>
+    <Desc>修为高深的蛟龙不自觉会散发强烈的极寒真气，蕴含浓烈此气的鳞片会获得极其特殊的能力。用其强化的衣衫，具有刀枪不入，并且不惧炎热的能力。</Desc>
+    <Item Lable="Clothes">
+      <NotRandom>1</NotRandom>
+      <BeMade>
+        <WorkToMake>400</WorkToMake>
+        <Quality>0</Quality>
+        <ArtDesc></ArtDesc>
+        <StuffCategories>
+          <Stuff name = "Leather"/>
+          <Stuff name = "Cloth"/>
+        </StuffCategories>
+        <CostStuffCount>35</CostStuffCount>
+      </BeMade>
+      <Equip>
+        <ModelID>3</ModelID>
+        <ArmorLingShield>1</ArmorLingShield>
+        
+        <TemperatureMaxAdd>300</TemperatureMaxAdd>
+        <TemperatureMinAdd>-4</TemperatureMinAdd>
+        
+        <PropertyScaleFromStuff>1.2</PropertyScaleFromStuff>
+        
+        <ToolModifier>Modifier_CangLongHanXing</ToolModifier>
+      </Equip> 		
+    </Item>
+	</ThingDef>
+  
+  <ThingDef Type="Item" Name="Item_ZhenHuangChiYan" Parent="WeaponBase">
+    <ThingName>真凰炽焰弓</ThingName>
+    <TexPath>res\Sprs\object\object_jinmieyu01</TexPath>
+    <MaxStack>1</MaxStack>
+    <Rate>12</Rate>
+    <Beauty>100</Beauty>
+    <Element>Huo</Element>
+    <Desc>修为高深的凶凤会灼烧世间万物，其浓烈的真气会化作实形，以此真气制成箭矢可无坚不摧。</Desc>
+    <Item Lable="Weapon">
+      <NotRandom>1</NotRandom>
+      <Equip>
+        <Damage>10</Damage>
+        <AttackSpeed>0.01</AttackSpeed>
+        <AttackRange>10</AttackRange>
+        <AtkDamage>
+          <li PartKind="Flesh" Name="Cut2" Rate="0.35"/>
+          <li PartKind="Flesh" Name="Puncture" Rate="0.35"/>
+          <li PartKind="Organ" Name="VisceralCut" Rate="0.35"/>
+        </AtkDamage>
+        <AttackSkill>NormalAttackMissile</AttackSkill>
+        <WeaponKind>Bow</WeaponKind>
+        <AtkAnis>
+          <li Name="GGpgong1" HitPoint="13" Bip="Bip001 L Hand"/>
+        </AtkAnis>
+        <ModPath>Mod/Prop/Weapon/weapon_gong2</ModPath>
+        <ToolModifier>Modifier_ZhenHuangChiYan</ToolModifier>
+      </Equip>
+    </Item>
+	</ThingDef>
+
+</List></ThingDefs>
