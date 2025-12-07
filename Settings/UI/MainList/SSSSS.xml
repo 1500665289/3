@@ -9,5 +9,6 @@
     <Data Kind="Builds" Unlock="4" Type="良缘" CMDType="Build" Name="SHAONIAN"/>
     <Data Kind="Builds" Unlock="4" Type="良缘" CMDType="Build" Name="TML"/>
     <Data Kind="Builds" Unlock="4" Type="良缘" CMDType="Build" Name="XICHUANG3"/>
+   <Data Kind="Builds" Unlock="1" Type="修仙正史"  Label="建筑"  CMDType="Build" Name="XICHUANG"/> 
   </List>
 </MainList>
