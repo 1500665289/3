@@ -1,4 +1,4 @@
-﻿<ThingDefs><List>
+<ThingDefs><List>
 
 	<ThingDef Type="Building" Name="AmazingMedicineTable" Parent="ProductionBase">	
 	<ThingName>了不起的制药桌</ThingName>	
@@ -198,5 +198,101 @@
 		</Produces>
 	</Building>
 	</ThingDef>
+
+	<ThingDef Type="Building" Name="WeaponMaker_White" Parent="ProductionBase">	
+	<ThingName>太白锻铁台</ThingName>	
+	<Desc>就是一个神奇的锻铁台。</Desc>
+	<TexPath>res/Sprs/buildingnew/building_bonfire1b</TexPath>
+	<TexScale>1</TexScale>
+	<BlockLight>1</BlockLight>
+	<SelectAble>1</SelectAble>
+	<CastShadow>1</CastShadow>
+	<Beauty>100</Beauty>
+	<Collider>
+		<Data>
+			[0,4,0],
+			[4,3,4],
+			[0,4,0]
+		</Data>
+		<OffsetGroup>
+			<li><x>0.5</x><y>-0.3</y></li>
+			<li><x>-0.42</x><y>-0.24</y></li>
+			<li><x>-0.46</x><y>1.17</y></li>
+			<li><x>0.41</x><y>0.71</y></li>
+		</OffsetGroup>
+		<WorkOffset>
+			<li Index="0" X="-0.05" Y="-0.16" Ang="180"/>
+			<li Index="1" X="0.2" Y="0" Ang="90"/>
+			<li Index="2" X="-0.2" Y="0" Ang="-90"/>
+			<li Index="3" X="0" Y="0.45" Ang="1"/>
+		</WorkOffset>
+	</Collider>
+	<Building>
+		<Orientation>F,B,R</Orientation>
+		<BePackage>1</BePackage>
+		<SelectProduceStuff>0</SelectProduceStuff>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<CanMakeRoom>0</CanMakeRoom>
+		<WorkAnimation>iron</WorkAnimation>
+		<BeMade>
+			<WorkToMake>250</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name="MetalBlock"/>
+				<Stuff name="RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>1600</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>3.03</x>
+			<y>4.04</y>
+			<z>1</z>
+		</SnowRenderData>
+		<ProduceKind>Smithing</ProduceKind>
+		<Produces>
+			<Produce>
+				<ThingDef>SP_Bow1</ThingDef>
+				<Display>捕兽弓</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Item_WeaponBow</ThingDef>
+				<Display>弓</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Item_WeaponKnife</ThingDef>
+				<Display>刀</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Item_WeaponLance</ThingDef>
+				<Display>枪</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Item_WeaponSword</ThingDef>
+				<Display>剑</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Item_WeaponSwordSky</ThingDef>
+				<Display>天琊琊神劍</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Item_WeaponHalbert</ThingDef>
+				<Display>锤</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Item_WeaponAxeRing</ThingDef>
+				<Display>环</Display>
+				<Count>1</Count>
+			</Produce>
+		</Produces>
+	</Building>
+	</ThingDef>
+
 	
 </List></ThingDefs>
